@@ -81,3 +81,23 @@ span{
     }
 }
 
+@media all and (max-width: 865px) {
+    header {
+        width: 100%;
+        h1{
+            font-size: 6.5vw;
+            text-align: center;
+            transition: 0.4s;
+        }
+        p{
+            font-size: 4.2vw;
+            text-align: center;
+            transition: 0.4s;
+        }
+    }
+    #survey-form {
+        width: 85%;
+        transition: 0.4s;
+    }
+}
+
