@@ -77,6 +77,7 @@ select {
   }
 }
 
+/* Body CSS Code */
 body {
   width: 100%;
   display: -webkit-box;
@@ -99,6 +100,7 @@ body {
   background-size: 100% 100%;
 }
 
+/* Header ELemnt CSS Code */
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -130,6 +132,7 @@ header p {
   color: white;
 }
 
+/* Form Element CSS Code */
 #survey-form {
   padding: 20px 35px 20px 35px;
   width: 800px;
@@ -138,6 +141,7 @@ header p {
   border-radius: 8px;
 }
 
+/* Inner Form element Form-Container CSS Code */
 .form-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -156,6 +160,7 @@ header p {
   color: black;
 }
 
+/* All Input tag CSS Code */
 #name, #email, #number, #role-name, #most-like {
   padding: 10px;
   background: white;
@@ -166,6 +171,7 @@ header p {
   border: transparent;
 }
 
+/* Name, Email, Number Label CSS Code */
 #name-label, #email-label, #number-label {
   font-size: 1.1rem;
   font-weight: 400;
@@ -173,6 +179,7 @@ header p {
   color: black;
 }
 
+/* Inner label tag Span tag Class="sub" CSS Code */
 .sub {
   margin-left: -1px;
   font-size: 1rem;
@@ -180,6 +187,7 @@ header p {
   color: black;
 }
 
+/* radio lable & checkbox label CSS Code */
 #radio, #checkbox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -190,12 +198,7 @@ header p {
           flex-direction: row;
 }
 
-.radio, .input-checkbox {
-  width: 25px;
-  height: 25px;
-  margin: 0px 0px 10px 0px;
-}
-
+/* Inner Checkbox span tag CSS Code */
 span {
   font-size: 1.1rem;
   font-weight: 400;
@@ -203,6 +206,14 @@ span {
   color: black;
 }
 
+/* Input Radio Button & Input Checkbox CSS Code */
+.radio, .input-checkbox {
+  width: 25px;
+  height: 25px;
+  margin: 0px 0px 10px 0px;
+}
+
+/* Forum Submit button CSS Code */
 #submit {
   padding: 15px;
   background: skyblue;
@@ -219,6 +230,7 @@ span {
   color: white;
 }
 
+/* Responsive CSS Code */
 @media all and (max-width: 865px) {
   header {
     width: 100%;

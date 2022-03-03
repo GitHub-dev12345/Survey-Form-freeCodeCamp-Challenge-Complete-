@@ -6,6 +6,7 @@
 @import '_mixing';
 
 // SCSS Coding
+/* Body CSS Code */
 body{
     width: 100%;
     @include flexBox(column, center, center);
@@ -16,6 +17,7 @@ body{
     background-size: 100% 100%;
 }
 
+/* Header ELemnt CSS Code */
 header{
     @include flexBox(column, center, center);
     @include header;
@@ -27,10 +29,12 @@ header{
     }
 }
 
+/* Form Element CSS Code */
 #survey-form{
     @include form;
 }
 
+/* Inner Form element Form-Container CSS Code */
 .form-container{
     display: flex;
     flex-direction: column;
@@ -40,14 +44,17 @@ header{
     }
 }
 
+/* All Input tag CSS Code */
 #name, #email, #number, #role-name, #most-like{
     @include commonCode;
 }
 
+/* Name, Email, Number Label CSS Code */
 #name-label, #email-label, #number-label{
     @include labelCode;
 }
 
+/* Inner label tag Span tag Class="sub" CSS Code */
 .sub{
     margin-left: -1px;
     font-size: 1rem;
@@ -55,17 +62,13 @@ header{
     color: black;
 }
 
+/* radio lable & checkbox label CSS Code */
 #radio, #checkbox{
     display: flex;
     flex-direction: row;
 }
 
-.radio, .input-checkbox{
-    width: 25px;
-    height: 25px;
-    margin: 0px 0px 10px 0px; 
-}
-
+/* Inner Checkbox span tag CSS Code */
 span{
     font-size: 1.1rem;
     font-weight: 400;
@@ -73,6 +76,14 @@ span{
     color: black;
 }
 
+/* Input Radio Button & Input Checkbox CSS Code */
+.radio, .input-checkbox{
+    width: 25px;
+    height: 25px;
+    margin: 0px 0px 10px 0px; 
+}
+
+/* Forum Submit button CSS Code */ 
 #submit{
     @include button;
     &:hover{
@@ -81,6 +92,7 @@ span{
     }
 }
 
+/* Responsive CSS Code */
 @media all and (max-width: 865px) {
     header {
         width: 100%;
