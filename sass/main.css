@@ -96,8 +96,9 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  background: url("https://images.cdn1.stockunlimited.net/preview1300/education-wallpaper_1821879.jpg") no-repeat;
-  background-size: 100% 100%;
+  background: palegoldenrod;
+  /*     background: url('https://images.cdn1.stockunlimited.net/preview1300/education-wallpaper_1821879.jpg') no-repeat;
+    background-size: 100% 100%; */
 }
 
 /* Header ELemnt CSS Code */
@@ -123,13 +124,13 @@ header {
 header h1 {
   font-size: 2.5rem;
   font-weight: bold;
-  color: white;
+  color: black;
 }
 
 header p {
   font-size: 1.3rem;
   font-weight: bold;
-  color: white;
+  color: black;
 }
 
 /* Form Element CSS Code */
