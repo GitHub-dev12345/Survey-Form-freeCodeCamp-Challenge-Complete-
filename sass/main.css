@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
 /* Box sizing rules */
 *,
@@ -97,7 +96,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  background: url("../img/Justin M_ Maller • Art Director & Illustrator • Online Portfolio.jpg") no-repeat;
+  background: url("../img/img-6.jpg") no-repeat;
   background-size: 100% 100%;
 }
 
@@ -138,7 +137,7 @@ header p {
   padding: 20px 35px 20px 35px;
   width: 800px;
   height: auto;
-  background: rgba(255, 166, 0, 0.95);
+  background: rgba(255, 166, 0, 0.99);
   border-radius: 8px;
 }
 
