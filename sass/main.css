@@ -128,7 +128,7 @@ header h1 {
 }
 
 header p {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: whitesmoke;
 }
@@ -174,7 +174,7 @@ header p {
 
 /* Name, Email, Number Label CSS Code */
 #name-label, #email-label, #number-label {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   margin: 10px 0px 5px 0px;
   color: black;
